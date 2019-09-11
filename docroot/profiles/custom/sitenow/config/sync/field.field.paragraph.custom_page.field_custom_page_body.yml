@@ -1,0 +1,21 @@
+uuid: 20ebdd21-fd94-4bc6-968c-7d3eb6acf9c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_custom_page_body
+    - paragraphs.paragraphs_type.custom_page
+  module:
+    - text
+id: paragraph.custom_page.field_custom_page_body
+field_name: field_custom_page_body
+entity_type: paragraph
+bundle: custom_page
+label: 'Page Body'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

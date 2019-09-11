@@ -1,0 +1,61 @@
+uuid: 22091511-faf1-4712-8ce9-3c38ae68cb67
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_custom_pages
+    - node.type.conference
+    - paragraphs.paragraphs_type.custom_page
+  module:
+    - entity_reference_revisions
+id: node.conference.field_custom_pages
+field_name: field_custom_pages
+entity_type: node
+bundle: conference
+label: 'Custom Pages'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      custom_page: custom_page
+    target_bundles_drag_drop:
+      accordion:
+        weight: 12
+        enabled: false
+      accordion_item:
+        weight: 13
+        enabled: false
+      articles:
+        weight: 14
+        enabled: false
+      blockquote:
+        weight: 15
+        enabled: false
+      card:
+        weight: 16
+        enabled: false
+      custom_page:
+        enabled: true
+        weight: 17
+      events:
+        weight: 18
+        enabled: false
+      featured_content:
+        weight: 19
+        enabled: false
+      section:
+        weight: 20
+        enabled: false
+      text:
+        weight: 21
+        enabled: false
+      webform:
+        weight: 22
+        enabled: false
+field_type: entity_reference_revisions

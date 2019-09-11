@@ -1,0 +1,33 @@
+uuid: 04424551-fbf5-49f8-853f-bbd5a36445b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.custom_page.field_custom_page_body
+    - field.field.paragraph.custom_page.field_custom_page_path
+    - field.field.paragraph.custom_page.field_custom_page_title
+    - paragraphs.paragraphs_type.custom_page
+  module:
+    - text
+id: paragraph.custom_page.default
+targetEntityType: paragraph
+bundle: custom_page
+mode: default
+content:
+  field_custom_page_body:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_custom_page_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  field_custom_page_path: true

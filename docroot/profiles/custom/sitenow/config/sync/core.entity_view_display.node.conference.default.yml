@@ -1,0 +1,30 @@
+uuid: 2615bfab-dffd-4689-b412-28ed5d38fe11
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.conference.body
+    - field.field.node.conference.field_custom_pages
+    - node.type.conference
+  module:
+    - text
+    - user
+id: node.conference.default
+targetEntityType: node
+bundle: conference
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_custom_pages: true

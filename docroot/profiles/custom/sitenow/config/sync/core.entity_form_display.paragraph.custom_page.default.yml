@@ -1,0 +1,43 @@
+uuid: 07ab008c-135b-48cc-a7ea-3a9f02ea440c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.custom_page.field_custom_page_body
+    - field.field.paragraph.custom_page.field_custom_page_path
+    - field.field.paragraph.custom_page.field_custom_page_title
+    - paragraphs.paragraphs_type.custom_page
+  module:
+    - text
+id: paragraph.custom_page.default
+targetEntityType: paragraph
+bundle: custom_page
+mode: default
+content:
+  field_custom_page_body:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_custom_page_path:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_custom_page_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

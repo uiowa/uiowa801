@@ -1,0 +1,5 @@
+name: SiteNow MicroSite
+type: module
+description: The description.
+package: Custom
+core: 8.x

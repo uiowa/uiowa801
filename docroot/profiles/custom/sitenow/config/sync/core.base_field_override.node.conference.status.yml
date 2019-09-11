@@ -1,0 +1,22 @@
+uuid: 8fa97d59-5a95-48b5-8e0d-e14de9f2a10f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.conference
+id: node.conference.status
+field_name: status
+entity_type: node
+bundle: conference
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,9 @@
+uuid: 247b3405-ad31-458e-b613-77947937facd
+langcode: en
+status: true
+dependencies: {  }
+id: custom_page
+label: 'Custom Page'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }
