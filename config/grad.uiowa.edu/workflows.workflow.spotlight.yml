@@ -1,0 +1,74 @@
+uuid: 10c83a59-d402-4b46-a9f7-ddb9e71db436
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.spotlight
+  module:
+    - content_moderation
+id: spotlight
+label: Spotlight
+type: content_moderation
+type_settings:
+  states:
+    archived:
+      published: false
+      default_revision: true
+      label: Archived
+      weight: 1
+    draft:
+      label: Draft
+      published: false
+      default_revision: false
+      weight: -2
+    published:
+      label: Published
+      published: true
+      default_revision: true
+      weight: 0
+    review:
+      published: false
+      default_revision: false
+      label: Review
+      weight: -1
+  transitions:
+    archive:
+      label: Archive
+      from:
+        - published
+      to: archived
+      weight: 1
+    archived_published:
+      label: 'Restore from archive'
+      from:
+        - archived
+      to: published
+      weight: 2
+    create_new_draft:
+      label: 'Create New Draft'
+      to: draft
+      weight: -2
+      from:
+        - archived
+        - draft
+        - published
+        - review
+    needs_review:
+      label: 'Needs Review'
+      from:
+        - draft
+        - review
+      to: review
+      weight: -1
+    publish:
+      label: Publish
+      to: published
+      weight: 0
+      from:
+        - draft
+        - published
+        - review
+  entity_types:
+    node:
+      - spotlight
+  default_moderation_state: draft
