@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "96699e1ff81877ee16fe99cd1a48f0fa",
+    "content-hash": "eec34e9a3d4f8581c4625061b6e9f617",
     "packages": [
         {
             "name": "acquia/blt",
@@ -627,7 +627,7 @@
             "version": "5.15.2",
             "source": {
                 "type": "git",
-                "url": "git@github.com:FortAwesome/Font-Awesome.git",
+                "url": "https://github.com/FortAwesome/Font-Awesome.git",
                 "reference": "fcec2d1b01ff069ac10500ac42e4478d20d21f4c"
             },
             "dist": {
@@ -3465,6 +3465,10 @@
                 {
                     "name": "floretan",
                     "homepage": "https://www.drupal.org/user/66163"
+                },
+                {
+                    "name": "nord102",
+                    "homepage": "https://www.drupal.org/user/3471419"
                 }
             ],
             "description": "Limit which text formats are available for each field instance.",
@@ -3837,6 +3841,10 @@
                 {
                     "name": "Sam152",
                     "homepage": "https://www.drupal.org/user/1485048"
+                },
+                {
+                    "name": "frjo",
+                    "homepage": "https://www.drupal.org/user/5546"
                 },
                 {
                     "name": "jdwfly",
