@@ -1,0 +1,16 @@
+uuid: 4775a4bd-6cc9-47c1-99aa-50085477118c
+langcode: en
+status: false
+dependencies: {  }
+id: thesis_defense
+label: 'Thesis Defense'
+description: ''
+folder: ../config/features/thesis_defense
+module: {  }
+theme: {  }
+blacklist:
+  - node.type.thesis_defense
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 80
