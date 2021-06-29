@@ -20,7 +20,6 @@ blacklist:
   - 'core.entity_form_display.node.area_of_study.*'
   - 'core.entity_view_display.node.area_of_study.*'
   - 'field.field.node.area_of_study.*'
-  - 'field.field.node.area_of_study.*'
   - 'field.storage.node.field_area_of_study_*'
   - 'field.storage.paragraph.field_degree*'
 graylist:
