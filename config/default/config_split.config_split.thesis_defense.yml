@@ -4,12 +4,13 @@ status: false
 dependencies: {  }
 id: thesis_defense
 label: 'Thesis Defense'
-description: ''
+description: 'Provides a Thesis Defense content type, list and calendar views, and related configuration.'
 folder: ../config/features/thesis_defense
 module: {  }
 theme: {  }
 blacklist:
   - node.type.thesis_defense
+  - 'field.storage.node.field_thesis_defense_*'
 graylist: {  }
 graylist_dependents: true
 graylist_skip_equal: true
