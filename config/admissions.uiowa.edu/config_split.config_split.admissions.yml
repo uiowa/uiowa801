@@ -27,6 +27,7 @@ blacklist:
   - taxonomy.vocabulary.colleges
   - views.view.colleges_taxonomy_term
   - 'field.storage.taxonomy_term.field_college_*'
+  - config_role_split.role_split.admissions
 graylist:
   - config_split.config_split.admissions
   - core.entity_form_display.node.student_profile.default

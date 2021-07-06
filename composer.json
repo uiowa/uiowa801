@@ -107,9 +107,11 @@
         "drupal/block_content_permissions": "^1.9",
         "drupal/colorbox": "^1.4",
         "drupal/components": "^2",
+        "drupal/config_filter": "^2.2",
         "drupal/config_ignore": "^2.2.0",
         "drupal/config_inspector": "^1.0",
-        "drupal/config_split": "^1.4",
+        "drupal/config_role_split": "^1.0@beta",
+        "drupal/config_split": "^2.0@beta",
         "drupal/core-composer-scaffold": "^9.0.0",
         "drupal/core-recommended": "^9.0.0",
         "drupal/cshs": "^2.0",
@@ -225,6 +227,9 @@
         "patches": {
             "drupal/config_ignore": {
                 "Support for export filtering via Drush": "https://www.drupal.org/files/issues/2021-01-04/config_ignore_2857247-61.patch"
+            },
+            "drupal/config_role_split": {
+                "Suggestion for the improvement of the roles form element": "https://www.drupal.org/files/issues/2021-07-01/3195593-9.patch"
             },
             "drupal/core": {
                 "The Media library doesn't modify the 'media' view if installed in a profile": "https://www.drupal.org/files/issues/2019-05-12/2992056.patch",
