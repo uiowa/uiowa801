@@ -2825,3 +2825,69 @@ $sites['siteshumanimmunology.local.drupal.uiowa.edu'] = 'humanimmunology.sites.u
 $sites['siteshumanimmunology.dev.drupal.uiowa.edu'] = 'humanimmunology.sites.uiowa.edu';
 $sites['siteshumanimmunology.stage.drupal.uiowa.edu'] = 'humanimmunology.sites.uiowa.edu';
 $sites['siteshumanimmunology.prod.drupal.uiowa.edu'] = 'humanimmunology.sites.uiowa.edu';
+
+// Directory aliases for jtucker.lab.uiowa.edu.
+$sites['labjtucker.local.drupal.uiowa.edu'] = 'jtucker.lab.uiowa.edu';
+$sites['labjtucker.dev.drupal.uiowa.edu'] = 'jtucker.lab.uiowa.edu';
+$sites['labjtucker.stage.drupal.uiowa.edu'] = 'jtucker.lab.uiowa.edu';
+$sites['labjtucker.prod.drupal.uiowa.edu'] = 'jtucker.lab.uiowa.edu';
+
+// Directory aliases for usg.uiowa.edu.
+$sites['usg.local.drupal.uiowa.edu'] = 'usg.uiowa.edu';
+$sites['usg.dev.drupal.uiowa.edu'] = 'usg.uiowa.edu';
+$sites['usg.stage.drupal.uiowa.edu'] = 'usg.uiowa.edu';
+$sites['usg.prod.drupal.uiowa.edu'] = 'usg.uiowa.edu';
+
+// Directory aliases for indianstudentalliance.org.uiowa.edu.
+$sites['orgindianstudentalliance.local.drupal.uiowa.edu'] = 'indianstudentalliance.org.uiowa.edu';
+$sites['orgindianstudentalliance.dev.drupal.uiowa.edu'] = 'indianstudentalliance.org.uiowa.edu';
+$sites['orgindianstudentalliance.stage.drupal.uiowa.edu'] = 'indianstudentalliance.org.uiowa.edu';
+$sites['orgindianstudentalliance.prod.drupal.uiowa.edu'] = 'indianstudentalliance.org.uiowa.edu';
+
+// Directory aliases for studentwellness.uiowa.edu.
+$sites['studentwellness.local.drupal.uiowa.edu'] = 'studentwellness.uiowa.edu';
+$sites['studentwellness.dev.drupal.uiowa.edu'] = 'studentwellness.uiowa.edu';
+$sites['studentwellness.stage.drupal.uiowa.edu'] = 'studentwellness.uiowa.edu';
+$sites['studentwellness.prod.drupal.uiowa.edu'] = 'studentwellness.uiowa.edu';
+
+// Directory aliases for wrac.uiowa.edu.
+$sites['wrac.local.drupal.uiowa.edu'] = 'wrac.uiowa.edu';
+$sites['wrac.dev.drupal.uiowa.edu'] = 'wrac.uiowa.edu';
+$sites['wrac.stage.drupal.uiowa.edu'] = 'wrac.uiowa.edu';
+$sites['wrac.prod.drupal.uiowa.edu'] = 'wrac.uiowa.edu';
+
+// Directory aliases for govrel.uiowa.edu.
+$sites['govrel.local.drupal.uiowa.edu'] = 'govrel.uiowa.edu';
+$sites['govrel.dev.drupal.uiowa.edu'] = 'govrel.uiowa.edu';
+$sites['govrel.stage.drupal.uiowa.edu'] = 'govrel.uiowa.edu';
+$sites['govrel.prod.drupal.uiowa.edu'] = 'govrel.uiowa.edu';
+
+// Directory aliases for hawkeyecaucus.com.
+$sites['com-hawkeyecaucus.local.drupal.uiowa.edu'] = 'hawkeyecaucus.com';
+$sites['com-hawkeyecaucus.dev.drupal.uiowa.edu'] = 'hawkeyecaucus.com';
+$sites['com-hawkeyecaucus.stage.drupal.uiowa.edu'] = 'hawkeyecaucus.com';
+$sites['com-hawkeyecaucus.prod.drupal.uiowa.edu'] = 'hawkeyecaucus.com';
+
+// Directory aliases for shse.iwp.uiowa.edu.
+$sites['iwpshse.local.drupal.uiowa.edu'] = 'shse.iwp.uiowa.edu';
+$sites['iwpshse.dev.drupal.uiowa.edu'] = 'shse.iwp.uiowa.edu';
+$sites['iwpshse.stage.drupal.uiowa.edu'] = 'shse.iwp.uiowa.edu';
+$sites['iwpshse.prod.drupal.uiowa.edu'] = 'shse.iwp.uiowa.edu';
+
+// Directory aliases for publishing-gallery.iwp.uiowa.edu.
+$sites['iwppublishing-gallery.local.drupal.uiowa.edu'] = 'publishing-gallery.iwp.uiowa.edu';
+$sites['iwppublishing-gallery.dev.drupal.uiowa.edu'] = 'publishing-gallery.iwp.uiowa.edu';
+$sites['iwppublishing-gallery.stage.drupal.uiowa.edu'] = 'publishing-gallery.iwp.uiowa.edu';
+$sites['iwppublishing-gallery.prod.drupal.uiowa.edu'] = 'publishing-gallery.iwp.uiowa.edu';
+
+// Directory aliases for silkroutes.iwp.uiowa.edu.
+$sites['iwpsilkroutes.local.drupal.uiowa.edu'] = 'silkroutes.iwp.uiowa.edu';
+$sites['iwpsilkroutes.dev.drupal.uiowa.edu'] = 'silkroutes.iwp.uiowa.edu';
+$sites['iwpsilkroutes.stage.drupal.uiowa.edu'] = 'silkroutes.iwp.uiowa.edu';
+$sites['iwpsilkroutes.prod.drupal.uiowa.edu'] = 'silkroutes.iwp.uiowa.edu';
+
+// Directory aliases for 91stmeridian.iwp.uiowa.edu.
+$sites['iwp91stmeridian.local.drupal.uiowa.edu'] = '91stmeridian.iwp.uiowa.edu';
+$sites['iwp91stmeridian.dev.drupal.uiowa.edu'] = '91stmeridian.iwp.uiowa.edu';
+$sites['iwp91stmeridian.stage.drupal.uiowa.edu'] = '91stmeridian.iwp.uiowa.edu';
+$sites['iwp91stmeridian.prod.drupal.uiowa.edu'] = '91stmeridian.iwp.uiowa.edu';
