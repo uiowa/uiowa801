@@ -1,7 +1,12 @@
 <?php
+
 /**
  * @file
- * Module code for uiowa_profiles.
+ * Primary module hooks for UIowa Profiles module.
+ *
+ * @DCG
+ * This file is no longer required in Drupal 8.
+ * @see https://www.drupal.org/node/2217931
  */
 
 /**
@@ -11,6 +16,6 @@ function uiowa_profiles_preprocess_page(&$variables) {
   $route = \Drupal::routeMatch()->getRouteName();
 
   if ($route == 'uiowa_profiles.directory') {
-   unset($variables['page']['breadcrumb']);
+    unset($variables['page']['breadcrumb']);
   }
 }
